@@ -1,0 +1,23 @@
+{
+    "name": "assign-uniform",
+    "version": "1.0.5",
+    "description": "Deterministic Uniform Assignment in Nodejs",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "jest --verbose --watch",
+        "build": "babel src --out-dir dist",
+        "prepublishOnly:": "npm run build"
+    },
+    "author": "abcloud.io",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-jest": "^22.4.3",
+        "jest": "^22.4.3"
+    },
+    "dependencies": {
+        "bignumber.js": "^6.0.0"
+    }
+}
